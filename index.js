@@ -15,5 +15,5 @@
 
 
 function findMatching(drivers, word){
-    return drivers.filter(driver => driver == word);
+    return drivers.filter(driver => driver.toLowerCase() == word.toLowerCase());
 }

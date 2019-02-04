@@ -15,5 +15,5 @@
 
 
 function findMatching(drivers, fullname){
-    return drivers.filter(driver => driver.toLowerCase() == fullname.toLowerCase());
+    return drivers.filter(driver => driver.toLowerCase() === fullname.toLowerCase());
 }

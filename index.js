@@ -6,11 +6,11 @@ function filter (collection) {
     }
   }
 }
- 
+
 function findMatching (drivers) {
   return user.attribute === value;
 }
- 
+
 
 
 

@@ -6,10 +6,10 @@ function findMatching(collection, name) {
   }
 }
 
-function blueFilter (collection) {
-  for (const user of collection) {
-    if (user.favoriteColor === 'Blue') {
-      console.log(user.firstName);
-    }
-  }
-}
+// function blueFilter (collection) {
+//   for (const user of collection) {
+//     if (user.favoriteColor === 'Blue') {
+//       console.log(user.firstName);
+//     }
+//   }
+// }

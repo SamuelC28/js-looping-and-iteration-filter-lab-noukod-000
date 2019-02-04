@@ -19,5 +19,5 @@ function findMatching(drivers, fullname){
 }
 
 function fuzzyMatch(drivers, chars) {
- return drivers.filter(function (driver){return driver.slice(0, chars.length) == partialWrold});
+ return drivers.filter(function (driver){return driver.slice(0, chars.length) == chars});
 }

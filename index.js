@@ -1,28 +1,19 @@
 // Code your solution in this file
-// function findMatching(collection, name) {
-//   for (const drivers of collection) {
-//     if (drivers.name ===name){
-//       console.log(drivers.name);
-//     else if (drivers !==name) {
-//       console.log(" ");
-//     }
-//
-//   }
-// }
-
-function findMatching (collection, attribute, value) {
+function filter (collection) {
   for (const drivers of collection) {
-    if (drivers[attribute] === value) {
-      console.log(drivers.firstName);
+    if (findMatching(drivers, attribute, value)) {
+      console.log(drivers.attribute);
     }
   }
 }
+ 
+function findMatching (drivers) {
+  return user.attribute === value;
+}
+ 
 
 
-// function blueFilter (collection) {
-//   for (const user of collection) {
-//     if (user.favoriteColor === 'Blue') {
-//       console.log(user.firstName);
-//     }
-//   }
+
+// function findMatching(drivers, word){
+//     return drivers.filter(driver => driver.toLowerCase() == word.toLowerCase());
 // }

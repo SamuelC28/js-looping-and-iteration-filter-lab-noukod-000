@@ -1,27 +1,11 @@
-// Code your solution in this file
-// function filter (collection) {
-//   for (const drivers of collection) {
-//     if (findMatching(drivers, attribute, value)) {
-//       console.log(drivers.attribute);
-//     }
-//   }
-// }
-//
-// function findMatching (drivers) {
-//   return user.attribute === value;
-// }
-
-
-
 
 function findMatching(drivers, fullname){
     return drivers.filter(driver => driver.toLowerCase() === fullname.toLowerCase());
 }
 
 function fuzzyMatch(drivers, chars) {
-
-var result = "";
-  return drivers.filter(function (driver){return drivers.split("").forEach((chars, index) => { index===0 ? driver[0] = chars : result += x};
-
- // return drivers.filter(function (driver){return driver.slice(0, chars.length) == chars});
+ return drivers.filter(function (driver){return driver.slice(0, chars.length) == chars});
+}
+function matchName(drivers, word){
+  return drivers.filter(function (driver){return driver["name"].match(word)});
 }

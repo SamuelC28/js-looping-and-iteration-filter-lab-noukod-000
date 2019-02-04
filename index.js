@@ -18,7 +18,7 @@ function findMatching(drivers, fullname){
     return drivers.filter(driver => driver.toLowerCase() === fullname.toLowerCase());
 }
 
-function fuzzyMatch(filterText, char) {
+function fuzzyMatch(drivers, char) {
   // const filtreTexte = (requete) => {
   return drivers.filter(char =>  char.toLowerCase().indexOf(filterText.toLowerCase()) == char> 0);
 

@@ -20,6 +20,6 @@ function findMatching(drivers, fullname){
 
 function fuzzyMatch(filterText, char) {
   // const filtreTexte = (requete) => {
-  filterText.filter(char =>  char.toLowerCase().indexOf(filterText.toLowerCase()) > 0);
-  return filterText(char);
+  return drivers.filter(char =>  char.toLowerCase().indexOf(filterText.toLowerCase()) == char> 0);
+
 }

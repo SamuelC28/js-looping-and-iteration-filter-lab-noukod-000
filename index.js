@@ -1,12 +1,12 @@
 // Code your solution in this file
 function findMatching(collection, name) {
   for (const drivers of collection) {
-    if (drivers.name ===name){ 
+    if (drivers.name ===name){
       console.log(drivers.name);
     else if (drivers !==name) {
       console.log(" ");
     }
-    
+
   }
 }
 
